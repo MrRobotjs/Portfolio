@@ -250,7 +250,7 @@ const About = () => (
                       </Header>
                       <Header>
                         <Title>IC3 GS4 - Key Applications Certificate <At href="https://goo.gl/maps/s3vaStfxg9E2" target="blank"> @ Certiport</At></Title>
-                        <div><View src="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
+                        <div><View href="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
                         <p>Skillset Description	:</p>
                         <ListsWrapper>
                           <List>
@@ -267,7 +267,7 @@ const About = () => (
                       </Header>
                       <Header>
                         <Title>77-422: MOS: Microsoft Office PowerPoint <At href="https://goo.gl/maps/s3vaStfxg9E2" target="blank"> @ Certiport</At></Title>
-                        <div><View src="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
+                        <div><View href="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
                         <p>Skillset Description	:</p>
                         <ListsWrapper>
                           <List>
