@@ -78,6 +78,40 @@ const Title = styled.p`
   margin: unset;
   line-height: 2rem;
 `
+const View = styled.a`
+  font-size: 0.7rem;
+  /*font-weight: bold;*/
+  color: ${props => props.theme.colors.primaryColor};
+  transition: 250ms linear;
+  display: -webkit-inline-box;
+    transition: color 250ms, text-shadow 250ms;
+    color: ${props => props.theme.colors.primaryColorLight};
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      z-index: -1;
+      bottom: -1px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-color: ${props => props.theme.colors.primaryColorLight};
+      transition: all 250ms;
+    }
+
+    &:hover {
+      color: black;
+
+      &::after {
+        height: 110%;
+        width: 102.5%;
+      }
+    }
+`
 const At = styled.a`
   font-size: 1.5rem;
   font-weight: bold;
@@ -213,6 +247,39 @@ const About = () => (
                       <Header>
                         <Title>High School Diploma <At href="https://goo.gl/maps/s3vaStfxg9E2" target="blank"> @ Ontario High School</At></Title>
                         <Date>From 2014 - 2018</Date>
+                      </Header>
+                      <Header>
+                        <Title>IC3 GS4 - Key Applications Certificate <At href="https://goo.gl/maps/s3vaStfxg9E2" target="blank"> @ Certiport</At></Title>
+                        <div><View src="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
+                        <p>Skillset Description	:</p>
+                        <ListsWrapper>
+                          <List>
+                            <Item>Common Application Features</Item>
+                            <Item>Word processing activities and methods</Item>
+                            <Item>Spreadsheet activities</Item>
+                          </List>
+                          <List>
+                            <Item>Presentation activities</Item>
+                            <Item>Basic Database Interactions</Item>
+                            <Item>Collaboration</Item>
+                          </List>
+                        </ListsWrapper>
+                      </Header>
+                      <Header>
+                        <Title>77-422: MOS: Microsoft Office PowerPoint <At href="https://goo.gl/maps/s3vaStfxg9E2" target="blank"> @ Certiport</At></Title>
+                        <div><View src="https://drive.google.com/file/d/1c5awFaH4vJFL4Mlrx0j7RPjJUG7avbMr/view?usp=sharing" target="blank">View Certificate</View></div>
+                        <p>Skillset Description	:</p>
+                        <ListsWrapper>
+                          <List>
+                            <Item>Create and Manage Presentations</Item>
+                            <Item>Insert and Format Shapes and Slides</Item>
+                            <Item>Create Slide Content</Item>
+                          </List>
+                          <List>
+                            <Item>Apply Transitions and Animations</Item>
+                            <Item>Manage Multiple Presentations</Item>
+                          </List>
+                        </ListsWrapper>
                       </Header>
                     </TabPanel>
                     <TabPanel>
