@@ -1,2 +1,1 @@
-# Portfolio
-A personal react based blog/portfolio.
+gh-pages
