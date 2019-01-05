@@ -144,7 +144,7 @@ const LandingPage = () => (
                 Websites.
               </Heading>
               <SubText>
-                I'm a software engineer/web designer based in <a href="https://goo.gl/maps/vBAByYECqVS2" target="blank">Ontario, CA</a> specializing in designing and designing exceptional, high-quality websites and applications for the web. You can get the document version of my resume <a href="https://docs.google.com/document/d/1t1MEK4x3o-WOp8yK2aU1jbu3wN_hmqh0lOeejQ7wCFM/edit?usp=sharing" target="blank">here</a>.
+                I'm a software engineer/web designer based in <a href="https://goo.gl/maps/vBAByYECqVS2" target="blank">Ontario, CA</a> specializing in designing and developing exceptional, high-quality websites and applications for the web. You can get the document version of my resume <a href="https://docs.google.com/document/d/1t1MEK4x3o-WOp8yK2aU1jbu3wN_hmqh0lOeejQ7wCFM/edit?usp=sharing" target="blank">here</a>.
               </SubText>
               </Fade>
               <Flex alignItems="center" justifyContent="center" flexWrap="wrap">
